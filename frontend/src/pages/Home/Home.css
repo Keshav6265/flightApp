@@ -1,0 +1,71 @@
+.container{
+    margin-top: 20px;
+    border: .01px solid black;
+    border-radius: 10px;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+    gap: 10px;
+}
+
+.way{
+    display: flex;
+    gap: 5px;
+}
+
+.way h5{
+    font-weight: 500;
+    border: 1px solid #c9c9c9;
+    padding: 5px 5px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.way .active{
+    background-color:aqua;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.inputs{
+   display:flex;
+   gap: 5px;
+}
+
+.inputs label{
+    font-size: 12px;
+    font-weight: 500;
+    margin-top: 12px;
+}
+
+.inputs input{
+    outline: none;
+    border: 1px solid #c9c9c9;
+    padding: 10px;
+    border-radius: 4px;
+}
+.load{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+ .load img{
+    width: 100px;
+ }
+
+
+@media (max-width:900px){
+    .inputs{
+        flex-direction: column;
+        gap: 5px;
+     }
+}

@@ -1,0 +1,8 @@
+.header{
+    height: 20vw;
+    margin: 30px auto;
+    margin-bottom: 0px;
+    background: url('../../assets/images.jpg') no-repeat;
+    background-size: contain;
+    position: relative;
+}

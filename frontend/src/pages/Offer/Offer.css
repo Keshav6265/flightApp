@@ -1,0 +1,66 @@
+.ticket-container{
+    margin-top: 20px;
+    border: .01px solid black;
+    border-radius: 10px;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    gap: 10px;
+}
+
+.container-left p, .container-right p{
+    font-weight: 500;
+}
+
+.container-center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+}
+.container-center span{
+    text-align: center;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.button-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.ticket-container button{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 30px;
+    background: transparent;
+    font-size: 16px;
+    border: 1px solid blue;
+    padding: 10px 30px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.ticket-container button:hover{
+    background-color: #fff4f2;
+}
+
+.sign-in{
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-in img{
+    width: 40px;
+}
+.sign-in p{
+    font-weight: 600;
+}
